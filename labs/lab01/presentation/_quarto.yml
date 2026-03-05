@@ -12,6 +12,7 @@ crossref:
   lol-title: Листинги
 format: # Formats
   beamer: # Pdf output format
+    pdf-engine: xelatex
     toc: true
     toc-title: Содержание
     number-sections: false

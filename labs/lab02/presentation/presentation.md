@@ -1,19 +1,27 @@
 ---
-author:
-  name: Валерия Сергеевна Григорьева
-  orcid: 0000-0002-0877-7063
-  email: 1032253494@rudn.ru
-  affiliation:
-    - name: Российский университет дружбы народов
-      country: Российская Федерация
-      postal-code: 117198
-      city: Москва
-      address: ул. Миклухо-Маклая, д. 6
+## Front matter
+lang: ru-RU
 title: Лабораторная работа №2
 subtitle: Операционные системы
-license: CC BY
-date: today
-date-format: "YYYY-MM-DD" # Example: 2025-09-06
+author:
+  - Григорьева Валерия Сергеевна
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+date: 04 марта 2026
+
+## i18n babel
+babel-lang: russian
+babel-otherlangs: english
+
+## Formatting pdf
+toc: false
+toc-title: Содержание
+slide_level: 2
+aspectratio: 169
+section-titles: true
+theme: metropolis
+header-includes:
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
 ---
 
 # Информация
@@ -34,8 +42,6 @@ date-format: "YYYY-MM-DD" # Example: 2025-09-06
 
 :::
 ::::::::::::::
-
-# Вводная часть
 
 ## Цель работы
 
@@ -94,7 +100,6 @@ date-format: "YYYY-MM-DD" # Example: 2025-09-06
 
 ![](image/12.jpg)
 
-# Выводы
+## Выводы
 
 В ходе лабораторной работы я приобрела необходимые навыки для работы с git, научилась создавать репозитории на основе шаблона, gpg и ssh ключи, настроила каталог курса.
-
