@@ -1,22 +1,27 @@
 ---
-## Author
-author:
-  name: Валерия Сергеевна Григорьева
-  degrees: DSc
-  orcid: 0000-0002-0877-7063
-  email: 1032253494@rudn.ru
-  affiliation:
-    - name: Российский университет дружбы народов
-      country: Российская Федерация
-      postal-code: 117198
-      city: Москва
-      address: ул. Миклухо-Маклая, д. 6
-## Title
+## Front matter
+lang: ru-RU
 title: Лабораторная работа №6
 subtitle: Операционные системы
-license: CC BY
-date: today
-date-format: "YYYY-MM-DD" # Example: 2025-09-06
+author:
+  - Григорьева Валерия Сергеевна
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+date: 20 марта 2026
+
+## i18n babel
+babel-lang: russian
+babel-otherlangs: english
+
+## Formatting pdf
+toc: false
+toc-title: Содержание
+slide_level: 2
+aspectratio: 169
+section-titles: true
+theme: metropolis
+header-includes:
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
 ---
 
 # Информация
@@ -37,8 +42,6 @@ date-format: "YYYY-MM-DD" # Example: 2025-09-06
 
 :::
 ::::::::::::::
-
-# Вводная часть
 
 ## Цель работы 
 
@@ -106,6 +109,6 @@ date-format: "YYYY-MM-DD" # Example: 2025-09-06
 
 ![](image/13.jpg){#fig-013 width=50%}
 
-# Выводы
+## Выводы
 
 В результате выполнения лабораторной работы я приобрела навыки взаимодействия пользовтеля с системой при помощи командной строки.
