@@ -1,19 +1,27 @@
 ---
-author:
-  name: Валерия Сергеевна Григорьева
-  orcid: 0000-0002-0877-7063
-  email: 1032253494@rudn.ru
-  affiliation:
-    - name: Российский университет дружбы народов
-      country: Российская Федерация
-      postal-code: 117198
-      city: Москва
-      address: ул. Миклухо-Маклая, д. 6
+## Front matter
+lang: ru-RU
 title: Индивидуальный проект. Этап 3
 subtitle: Операционные системы
-license: CC BY
-date: today
-date-format: "YYYY-MM-DD" # Example: 2025-09-06
+author:
+  - Григорьева Валерия Сергеевна
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+date: 10 апреля 2026
+
+## i18n babel
+babel-lang: russian
+babel-otherlangs: english
+
+## Formatting pdf
+toc: false
+toc-title: Содержание
+slide_level: 2
+aspectratio: 169
+section-titles: true
+theme: metropolis
+header-includes:
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
 ---
 
 # Информация
@@ -35,32 +43,29 @@ date-format: "YYYY-MM-DD" # Example: 2025-09-06
 :::
 ::::::::::::::
 
-# Вводная часть
-
 ## Цель работы
 
 Целью работы было добавить к сайту достижения и опубликовать посты.
-
-# Выполнение лабораторной работы
 
 ## Добавление информации
 
 В начале работы я в папке data/authors в файле me.yaml и в файле _index.md добавила информацию о навыках, опыте и достижениях.
 
-![](image/1.jpg)
+![](image/1.jpg){#fig-001 width=70%}
 
 ## Текст поста о Markdown
 
 Затем в каталоге content/blog я добавила подкаталоги с новыми постами прошедшей неделе и о языке разметки Markdown.
 
-![](image/2.jpg)
+![](image/2.jpg){#fig-002 width=70%}
 
 ## Мой новый пост
 
 Далее я проверила, что все изменения применились, и собрала сайт с помощью команды hugo server. Сайт теперь содержит информацию обо мне и мои новые посты. Затем я отправила зменения на гитхаб.
 
-![](image/3.jpg)
+![](image/3.jpg){#fig-003 width=70%}
 
-# Выводы
+## Выводы
 
 В результате выполнения данного этапа индивидульного проекта я добавила на сайт информацию о своих достижениях и опубликовала посты.
+
