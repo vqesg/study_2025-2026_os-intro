@@ -1,4 +1,4 @@
-all:
+qall:
 	-@quarto render
 
 clean:

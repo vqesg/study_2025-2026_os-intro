@@ -1,22 +1,27 @@
 ---
-## Author
-author:
-  name: Валерия Сергеевна Григорьева
-  degrees: DSc
-  orcid: 0000-0002-0877-7063
-  email: 1032253494@rudn.ru
-  affiliation:
-    - name: Российский университет дружбы народов
-      country: Российская Федерация
-      postal-code: 117198
-      city: Москва
-      address: ул. Миклухо-Маклая, д. 6
-## Title
+## Front matter
+lang: ru-RU
 title: Лабораторная работа №11
 subtitle: Операционные системы
-license: CC BY
-date: today
-date-format: "YYYY-MM-DD" # Example: 2025-09-06
+author:
+  - Григорьева Валерия Сергеевна
+institute:
+  - Российский университет дружбы народов, Москва, Россия
+date: 24 апреля 2026
+
+## i18n babel
+babel-lang: russian
+babel-otherlangs: english
+
+## Formatting pdf
+toc: false
+toc-title: Содержание
+slide_level: 2
+aspectratio: 169
+section-titles: true
+theme: metropolis
+header-includes:
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
 ---
 
 # Информация
@@ -38,9 +43,8 @@ date-format: "YYYY-MM-DD" # Example: 2025-09-06
 :::
 ::::::::::::::
 
-# Вводная часть
 
-## Цель работы
+## Цель работы 
 
 Познакомиться с операционной системой Linux. Получить практические навыки работы с редактором Emacs.
 
@@ -81,6 +85,6 @@ date-format: "YYYY-MM-DD" # Example: 2025-09-06
 
 Затем я переключилась в режим поиска (C-s) и нашла несколько слов, присутствующих в тексте. Далее перешла в поиска и замены (M-%) и ввела текст, который следует найти и заменить. Затем попробовала другой режим поиска, нажав M-s o. Он отличается тем, что показывает все совпадения в отдельном окне.
 
-# Выводы
+## Выводы
 
 В ходе выполнения лабораторной работы я получила практические навыки работы с редактором Emacs.
